@@ -5,7 +5,7 @@ At present, we don't have an option to use the Azure portal to deploy Standard L
 You can refer to the templates available in the templates folder.
 
 The template creates the below resources:
-1. Creates Storage account denies the public traffic
+1. Creates Storage account which denies the public traffic
 2. Creates Private Endpoints for blob, file, queue and table services
 3. Creates File Share (LogicApp App settings refer to this which create Logic App host runtime directories and files)
 4. Creates App Service Plan (Workflow standard -WS1) to host Standard Logic App resources
