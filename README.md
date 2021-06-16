@@ -1,8 +1,8 @@
 # Deploy Logic App with Secured storage account having Private Endpoints
 
-At present, we don't have the liberty to use the Azure portal to deploy the standard Logic App with secured storage account. However, we can work with ARM templates which lets us to use the Storage account behind firewall for Logic App standard resource deployment.
+At present, we don't have an option to use the Azure portal to deploy Standard Logic App with secured storage account. However, we can work with ARM templates which let us to use the Storage account behind firewall for Logic App standard resource deployment.
 
-You can refer to the templates available in the repo- templates folder.
+You can refer to the templates available in the templates folder.
 
 The template creates the below resources:
 1. Creates Storage account denies the public traffic
