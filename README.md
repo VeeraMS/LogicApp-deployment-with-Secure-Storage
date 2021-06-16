@@ -2,7 +2,7 @@
 
 At present, we don't have an option to use the Azure portal to deploy Standard Logic App with secured storage account. However, we can work with ARM templates which let us to use the Storage account behind firewall for Logic App standard resource deployment.
 
-You can refer to the templates available in the templates folder.
+You can refer to the templates available in the templates folder. You can use deploy custom template option in the Azure Portal or Powershell to deploy the ARM templates.
 
 The template creates the below resources:
 1. Creates Storage account which denies the public traffic
