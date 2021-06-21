@@ -6,8 +6,8 @@ You can refer to the templates available in the templates folder. You can use de
 
 The template creates the below resources:
 1. Creates Storage account which denies the public traffic
-2. Creates VNET and SUbnets
-3. Creates Private Endpoints for blob, file, queue and table services
+2. Creates VNET and Subnets
+3. Creates Private DNS Zones and Private Endpoints for blob, file, queue and table services
 4. Creates File Share (LogicApp App settings refer to this which create Logic App host runtime directories and files)
 5. Creates App Service Plan (Workflow standard -WS1) to host Standard Logic App resources
 6. Creates the Standard Logic App and sets network config with the VNET integration (to connect to storage account on private endpoints)
