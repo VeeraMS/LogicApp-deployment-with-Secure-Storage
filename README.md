@@ -6,10 +6,11 @@ You can refer to the templates available in the templates folder. You can use de
 
 The template creates the below resources:
 1. Creates Storage account which denies the public traffic
-2. Creates Private Endpoints for blob, file, queue and table services
-3. Creates File Share (LogicApp App settings refer to this which create Logic App host runtime directories and files)
-4. Creates App Service Plan (Workflow standard -WS1) to host Standard Logic App resources
-5. Creates the Standard Logic App and sets network config with the VNET integration (to connect to storage account on private endpoints)
+2. Creates VNET and SUbnets
+3. Creates Private Endpoints for blob, file, queue and table services
+4. Creates File Share (LogicApp App settings refer to this which create Logic App host runtime directories and files)
+5. Creates App Service Plan (Workflow standard -WS1) to host Standard Logic App resources
+6. Creates the Standard Logic App and sets network config with the VNET integration (to connect to storage account on private endpoints)
 
 This template has been created from the sample Function App template available here https://github.com/Azure/azure-quickstart-templates/tree/master/quickstarts/microsoft.web/function-app-storage-private-endpoints
 
