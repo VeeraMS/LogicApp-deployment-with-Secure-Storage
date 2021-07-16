@@ -8,6 +8,9 @@
     "appInsightName": {
       "value": "VegangalLAWithPE123"
     },
+         "fileShareName": {
+      "value": "VegangalLAWithPE123"
+    },
     "location": {
       "value": "East US"
     },
