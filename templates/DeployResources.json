@@ -284,7 +284,7 @@
             "name": "[variables('privateEndpointFileStorageName')]",
             "location": "[parameters('Location')]",
           "dependsOn": [
-            "[resourceId('Microsoft.Storage/storageAccounts/fileServices/shares', parameters('contentStorageAccountName'), 'default', variables('fileShareName'))]",
+            "[resourceId('Microsoft.Storage/storageAccounts/fileServices/shares', parameters('contentStorageAccountName'), 'default', parameters('fileShareName'))]",
             "[resourceId('Microsoft.Network/virtualNetworks', parameters('vnetName'))]"
           ],
             "properties": {
@@ -310,7 +310,7 @@
             "name": "[variables('privateEndpointBlobStorageName')]",
             "location": "[parameters('Location')]",
           "dependsOn": [
-            "[resourceId('Microsoft.Storage/storageAccounts/fileServices/shares', parameters('contentStorageAccountName'), 'default', variables('fileShareName'))]",
+            "[resourceId('Microsoft.Storage/storageAccounts/fileServices/shares', parameters('contentStorageAccountName'), 'default', parameters('fileShareName'))]",
             "[resourceId('Microsoft.Network/virtualNetworks', parameters('vnetName'))]"
           ],
             "properties": {
@@ -336,7 +336,7 @@
             "name": "[variables('privateEndpointQueueStorageName')]",
             "location": "[parameters('Location')]",
           "dependsOn": [
-            "[resourceId('Microsoft.Storage/storageAccounts/fileServices/shares', parameters('contentStorageAccountName'), 'default', variables('fileShareName'))]",
+            "[resourceId('Microsoft.Storage/storageAccounts/fileServices/shares', parameters('contentStorageAccountName'), 'default', parameters('fileShareName'))]",
             "[resourceId('Microsoft.Network/virtualNetworks', parameters('vnetName'))]"
           ],
             "properties": {
@@ -362,7 +362,7 @@
             "name": "[variables('privateEndpointTableStorageName')]",
             "location": "[parameters('Location')]",
           "dependsOn": [
-            "[resourceId('Microsoft.Storage/storageAccounts/fileServices/shares', parameters('contentStorageAccountName'), 'default', variables('fileShareName'))]",
+            "[resourceId('Microsoft.Storage/storageAccounts/fileServices/shares', parameters('contentStorageAccountName'), 'default', parameters('fileShareName'))]",
             "[resourceId('Microsoft.Network/virtualNetworks', parameters('vnetName'))]"
           ],
             "properties": {
