@@ -7,7 +7,7 @@
     },
         "fileShareName": {
       "type": "String"
-    },,
+    },
     "appInsightName": {
       "type": "String"
     },
