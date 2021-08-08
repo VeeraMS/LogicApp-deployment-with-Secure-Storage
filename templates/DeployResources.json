@@ -78,7 +78,7 @@
     }
   },
   "variables": {
-       "privateStorageFileDnsZoneName": "[concat('privatelink.file.', environment().suffixes.storage)]",
+    "privateStorageFileDnsZoneName": "[concat('privatelink.file.', environment().suffixes.storage)]",
     "privateStorageBlobDnsZoneName": "[concat('privatelink.blob.', environment().suffixes.storage)]",
     "privateStorageQueueDnsZoneName": "[concat('privatelink.queue.', environment().suffixes.storage)]",
     "privateStorageTableDnsZoneName": "[concat('privatelink.table.', environment().suffixes.storage)]",
@@ -173,7 +173,7 @@
       {
         "type": "Microsoft.Storage/storageAccounts/fileServices/shares",
         "apiVersion": "2021-04-01",
-        "name": "[concat(parameters('contentStorageAccountName'), '/default/', parameters('fileShareName'))]",
+        "name": "[concat(parameters('contentStorageAccountName'), '/default/', toLower(parameters('fileShareName')))]",
         "dependsOn": [
           "[parameters('contentStorageAccountName')]"
         ]
@@ -515,7 +515,7 @@
                         },
                         {
                             "name": "WEBSITE_CONTENTSHARE",
-                            "value": "[parameters('fileShareName')]"
+                            "value": "[toLower(parameters('fileShareName'))]"
                         },
                         {
                             "name": "APP_KIND",
