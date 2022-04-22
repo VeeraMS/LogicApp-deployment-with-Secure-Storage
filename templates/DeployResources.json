@@ -525,10 +525,7 @@
                             "name": "WEBSITE_VNET_ROUTE_ALL",
                             "value": "1"
                         },
-                        {
-                            "name": "WEBSITE_DNS_SERVER",
-                            "value": "168.63.129.16"
-                        },
+                        
                         {
                             "name": "AzureFunctionsJobHost__extensionBundle__id",
                             "value": "Microsoft.Azure.Functions.ExtensionBundle.Workflows",
