@@ -15,3 +15,5 @@ The template creates the below resources:
 This template has been created from the sample Function App template available here https://github.com/Azure/azure-quickstart-templates/tree/master/quickstarts/microsoft.web/function-app-storage-private-endpoints
 
 **Disclaimer**: The templates provided are samples, you may verify and make changes as per your requiremenrts. Any concerns or queries feel free to let me know.
+
+![Deploy to Azure](https://aka.ms/deploytoazurebutton)
