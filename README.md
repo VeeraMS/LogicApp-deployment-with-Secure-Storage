@@ -16,4 +16,4 @@ This template has been created from the sample Function App template available h
 
 **Disclaimer**: The templates provided are samples, you may verify and make changes as per your requiremenrts. Any concerns or queries feel free to let me know.
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https%3A%2F%2Fraw.githubusercontent.com%2FVeeraMS%2FLogicApp-deployment-with-Secure-Storage%2Fmain%2Ftemplates%2FDeployResources.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FVeeraMS%2FLogicApp-deployment-with-Secure-Storage%2Fmain%2Ftemplates%2FDeployResources.json)
