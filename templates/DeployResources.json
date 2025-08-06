@@ -491,7 +491,7 @@
                     "appSettings": [
                         {
                             "name": "FUNCTIONS_EXTENSION_VERSION",
-                            "value": "~3"
+                            "value": "~4"
                         },
                         {
                             "name": "FUNCTIONS_WORKER_RUNTIME",
@@ -522,7 +522,7 @@
                             "value": "workflowApp"
                         },
                         {
-                            "name": "WEBSITE_VNET_ROUTE_ALL",
+                            "name": "vnetRouteAllEnabled",
                             "value": "1"
                         },
                         
