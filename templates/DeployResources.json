@@ -150,6 +150,7 @@
         },
         "kind": "StorageV2",
         "properties": {
+         "allowBlobPublicAccess": false,  
           "networkAcls": {
             "bypass": "AzureServices",
             "defaultAction": "Deny"
@@ -487,11 +488,12 @@
             },
             "properties": {
                 "name": "[parameters('logicAppFEname')]",
+                 "publicNetworkAccess": "Disabled",
                 "siteConfig": {
                     "appSettings": [
                         {
                             "name": "FUNCTIONS_EXTENSION_VERSION",
-                            "value": "~3"
+                            "value": "~4"
                         },
                         {
                             "name": "FUNCTIONS_WORKER_RUNTIME",
